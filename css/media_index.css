@@ -1,0 +1,79 @@
+html, body {}
+@media all and (min-width:320px) and (max-width:768px) {
+
+	/*menu01*/
+	section .menu01 {display: none;}
+	/*menu02*/
+	section .menu02 {background:#e9e9e9 url(../images/slide_02.jpg) no-repeat center 10%; background-size: contain; padding: 65% 0 10%;}
+	section .menu02 #reserve {width:100%;}
+	section .menu02 #reserve h2 {margin-bottom: 5%;}
+	section .menu02 #reserve h2 a img {max-width:30%;}
+	section .menu02 #reserve>ul {display:none;}
+	section .menu02 #reserve #m_banner {display: block;}
+	/*menu03*/
+	section .menu03 {width:100%; padding: 10% 0;}
+	section .menu03 h2 {margin-bottom: 5%;}
+	section .menu03 h2 a img {max-width: 30%;}
+	section .menu03 div iframe {width: 100%; height: 300px;}
+	section .menu03 ul {width: 95%;}
+	section .menu03 ul li {width: 50%; box-sizing: border-box; margin: 0;}
+	section .menu03 ul li a {font-size: 0.875em}
+	/* menu04 */
+	section .menu04 {width: 100%; padding: 10% 0;}
+	section .menu04 #quickMenu {width: 95%;}
+	section .menu04 #quickMenu ul {width: 100%}
+	section .menu04 #quickMenu ul li {width:50%; margin-left: 0;}
+	section .menu04 #quickMenu ul .quick01 a {background:url(../images/quickIcon_01.png) #003964 no-repeat center 20px;}
+	section .menu04 #quickMenu ul .quick02 a {background:url(../images/quickIcon_02.png) #003964 no-repeat center 20px;}
+	section .menu04 #quickMenu ul .quick03 a {background:url(../images/quickIcon_03.png) #003964 no-repeat center 20px;}
+	section .menu04 #quickMenu ul .quick04 a {background:url(../images/quickIcon_04.png) #003964 no-repeat center 20px;}
+	section .menu04 #quickMenu ul .quick05 a {background:url(../images/quickIcon_05.png) #003964 no-repeat center 20px;}
+	section .menu04 #quickMenu ul .quick06 a {background:url(../images/quickIcon_06.png) #003964 no-repeat center 20px;}
+	section .menu04 #quickMenu ul li  a {
+		width: 100%; height: 160px; padding-top: 135px; color: #fff; font-size: 0.875em; background-size:contain; border: 1px solid #e9e9e9;
+	}
+
+}
+
+
+@media all and (min-width:768px) and (max-width:1024px) {
+
+	/*menu01*/
+	section .menu01 {display: none;}
+	/*menu02*/
+	section .menu02 {background:#e9e9e9  url(../images/slide_02.jpg) no-repeat center 10%; background-size: contain; padding: 60% 0 10%;}
+	section .menu02 #reserve {width:100%;}
+	section .menu02 #reserve h2 {margin-bottom: 5%;}
+	section .menu02 #reserve>ul {display:none;}
+	section .menu02 #reserve #m_banner {display: block}
+	section .menu02 #reserve #m_banner ul {width:90%; overflow: hidden;  display: inline-block;}
+	section .menu02 #reserve #m_banner ul li {width:20%; height: 160px;}
+	section .menu02 #reserve #m_banner ul li a {
+		width: 100%; height: 100%;
+		padding: 35% 5%; box-sizing: border-box;
+		display: block;	line-height: 180%;
+		font-size: 1em;	font-weight: bold;
+		color: #595959; letter-spacing: -0.05em;
+	}
+	section .menu02 #reserve #m_banner ul li:first-of-type {width: 20%; text-align: center;}
+	section .menu02 #reserve #m_banner ul li:first-of-type a {
+		background: none; padding:35% 5%; font-size: 1em;
+	}
+	section .menu02 #reserve #m_banner ul li a:hover,
+	section .menu02 #reserve #m_banner ul li a:active,
+	section .menu02 #reserve #m_banner ul li a:focus {
+		background: url(../images/reservBg.gif) no-repeat center center;
+		background-size: cover;
+		color: #fff;
+	}
+	/* menu03 */
+	section .menu03 {padding: 10% 0;}
+	section .menu03 h2 {margin-bottom: 5%;}
+	section .menu03 div iframe {width: 90%; height: 600px;}
+	/* menu04 */
+	section .menu04 {width: 100%; padding: 10% 0;}
+	section .menu04 #quickMenu {width: 90%;}
+	section .menu04 #quickMenu ul li {width: 33.33%; margin-left: 0;}
+	section .menu04 #quickMenu ul li  a {width: 100%; border: 1px solid #e9e9e9; font-size: 1em;}
+
+}
